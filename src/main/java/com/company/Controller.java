@@ -11,13 +11,13 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 
 import java.io.InputStream;
 import java.net.URL;
-import java.util.Objects;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class Controller implements Initializable {
 
@@ -78,10 +78,66 @@ public class Controller implements Initializable {
 
     public void setLogText(String text) {
 
-        Text t = new Text(text);
-        t.setUnderline(true);
+        ArrayList<Text> texts = parseBbString(text);
+
         logId.getChildren().clear();
-        logId.getChildren().addAll(t);
-       // logId.setText(text);
+        logId.getChildren().addAll(texts);
+    }
+
+    private ArrayList<Text> parseBbString(String line) {
+
+        ArrayList<Text> tokens = new ArrayList<>();
+        Text currentToken = new Text();
+
+        boolean parsingTag = false;
+        String currentTag = "";
+        String currentText = "";
+
+        for (int i = 0; i < line.length(); i++) {
+            char ch = line.charAt(i);
+
+            if (ch == '[') {
+                parsingTag = true;
+
+                if (i < line.length() + 1) {
+                    if (line.charAt(i + 1) != '/') {
+                        if (currentText != "") {
+                            currentToken = new Text();
+                            currentToken.setText(currentText);
+                            tokens.add(currentToken);
+                        }
+                    }
+                }
+            }
+            else if (ch == ']') {
+                parsingTag = false;
+
+                if (!currentTag.equals("/")) {
+                    currentToken = new Text();
+                    currentToken.setFill(Colors.Xterm255ToColor(Integer.parseInt(currentTag)));
+                }
+                else {
+                    currentToken.setText(currentText);
+                    tokens.add(currentToken);
+                }
+
+                currentTag = "";
+                currentText = "";
+            }
+            else if (!parsingTag) {
+                currentText += String.valueOf(ch);
+            }
+            else {
+                currentTag += String.valueOf(ch);
+            }
+        }
+
+        if (currentText != "") {
+            currentToken = new Text();
+            currentToken.setText(currentText);
+            tokens.add(currentToken);
+        }
+
+       return tokens;
     }
 }

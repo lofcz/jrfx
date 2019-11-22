@@ -1,5 +1,7 @@
 package com.company;
 
+import javafx.scene.paint.Color;
+
 /**
  *  Class Colors
  *  Used to render game in 9 colors mode
@@ -85,6 +87,77 @@ public class Colors {
 
     public static boolean GetColorsEnabled() {
         return C_ENABLED;
+    }
+
+    public static Color Xterm255ToColor(int color) {
+
+        if (color < 16) {
+            if (color == 0) {
+                return Color.rgb(0, 0, 0);
+            }
+
+            if (color == 1) {
+                return Color.rgb(128, 0, 0);
+            }
+
+            if (color == 2) {
+                return Color.rgb(0, 128, 0);
+            }
+
+            if (color == 3) {
+                return Color.rgb(128, 128, 0);
+            }
+
+            if (color == 4) {
+                return Color.rgb(0, 0, 128);
+            }
+
+            if (color == 5) {
+                return Color.rgb(128, 0, 128);
+            }
+
+            if (color == 6) {
+                return Color.rgb(0, 128, 128);
+            }
+
+            if (color == 7) {
+                return Color.rgb(192, 192, 192);
+            }
+
+            if (color == 8) {
+                return Color.rgb(128, 128, 128);
+            }
+
+            if (color == 9) {
+                return Color.rgb(255, 0, 0);
+            }
+
+            if (color == 10) {
+                return Color.rgb(0, 255, 0);
+            }
+
+            if (color == 11) {
+                return Color.rgb(255, 255, 0);
+            }
+
+            if (color == 12) {
+                return Color.rgb(0, 0, 255);
+            }
+
+            if (color == 13) {
+                return Color.rgb(255, 0, 255);
+            }
+
+            if (color == 14) {
+                return Color.rgb(0, 255, 255);
+            }
+
+            if (color == 15) {
+                return Color.rgb(255, 255, 255);
+            }
+        }
+
+        return Color.rgb( ((color - 16) / 36) * 51,  ((color - 16) / 36) * 51,  ((color - 16) / 6) * 51);
     }
 }
 

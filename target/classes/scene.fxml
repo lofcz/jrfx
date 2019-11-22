@@ -9,7 +9,9 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.ComboBox?>
-<VBox prefHeight="518.0" prefWidth="1000.0" styleClass="body" stylesheets="styles.css"
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.StackPane?>
+<VBox prefHeight="860" prefWidth="1060" styleClass="body" stylesheets="styles.css"
       xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.company.Controller">
     <children>
@@ -18,7 +20,7 @@
                 <Menu mnemonicParsing="false" text="Hra">
                     <items>
                         <MenuItem fx:id="newGameMenuItem" mnemonicParsing="false" text="Nová hra"/>
-                        <MenuItem fx:id="endGame" mnemonicParsing="false" text="Quit"/>
+                        <MenuItem fx:id="endGame" mnemonicParsing="false" text="Ukončit hru"/>
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Nápověda">
@@ -28,53 +30,81 @@
                 </Menu>
             </menus>
         </MenuBar>
-        <ComboBox fx:id="commandsBox" layoutX="15.0" layoutY="33.0" prefWidth="150.0" promptText="choose"/>
+
         <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="518.0" prefWidth="1000.0" VBox.vgrow="ALWAYS">
             <children>
-                <VBox layoutX="14.0" layoutY="395.0" prefHeight="82.0" prefWidth="160.0" styleClass="section">
-                    <children>
-                        <Label fx:id="healthLabel" prefHeight="35.0" prefWidth="150.0" styleClass="label"
-                               text="Životy:"/>
-                        <Label fx:id="moneyLabel" prefHeight="36.0" prefWidth="151.0" styleClass="label"
-                               text="Peníze:"/>
-                    </children>
-                </VBox>
 
-                <ImageView fx:id="locationImage" fitHeight="300.0" fitWidth="630.0" layoutX="182.0" layoutY="178.0"
-                           pickOnBounds="true" preserveRatio="true"/>
-                <VBox fx:id="inventory" layoutX="14.0" layoutY="28.0" prefHeight="170.0" prefWidth="160.0"
-                      styleClass="section">
-                    <children>
+                <ImageView fx:id="locationImage" fitHeight="300.0" fitWidth="600.0" layoutX="234" layoutY="340.0" pickOnBounds="true" styleClass="mainImg"/>
 
-                        <Label prefHeight="30.0" prefWidth="179.0" styleClass="label" text="Inventář"/>
-                    </children>
-                </VBox>
-                <VBox fx:id="itemList" layoutX="14.0" layoutY="217.0" prefHeight="170.0" prefWidth="160.0"
-                      styleClass="section">
-                    <children>
-                        <Label prefHeight="40.0" prefWidth="175.0" styleClass="label" text="Předměty k sebrání"
-                               textAlignment="CENTER"/>
-                    </children>
-                </VBox>
-                <VBox fx:id="npcList" layoutX="830.0" layoutY="26.0" prefHeight="170.0" prefWidth="150.0"
-                      styleClass="section">
-                    <children>
-                        <Label prefHeight="40.0" prefWidth="174.0" styleClass="label" text="Postavy"/>
-                    </children>
-                </VBox>
-                <VBox fx:id="locationList" layoutX="830.0" layoutY="217.0" prefHeight="257.0" prefWidth="150.0"
-                      styleClass="section">
-                    <children>
-                        <Label prefHeight="40.0" prefWidth="175.0" styleClass="label" text="Prostory"/>
-                    </children>
-                </VBox>
-                <VBox fx:id="logger" layoutX="182.0" layoutY="28.0" prefHeight="130.0" prefWidth="630.0"
-                      styleClass="section">
-                    <children>
-                        <Label prefHeight="17.0" prefWidth="65.0" styleClass="label" text="Co se děje"/>
-                    </children>
-                </VBox>
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="14.0" layoutY="28.0" prefHeight="300">
+                    <VBox fx:id="inventory" styleClass="section">
+                        <children>
+
+                            <Label prefHeight="17.0" prefWidth="180.0" styleClass="label" text="Inventář"/>
+                        </children>
+                    </VBox>
+
+                </ScrollPane>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="14.0" layoutY="340" prefHeight="300">
+                    <VBox fx:id="itemList" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="180.0" styleClass="label" text="Dostupné předměty"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="850.0" layoutY="28" prefHeight="300">
+                    <VBox fx:id="npcList" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="NPC"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="850.0" layoutY="340" prefHeight="300">
+                    <VBox fx:id="locationList" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="Lokace"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="234" layoutY="28.0" prefHeight="254" prefWidth="600">
+                    <VBox fx:id="logger" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="580" styleClass="label" text="Log"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+                <ComboBox fx:id="commandsBox" layoutX="234" layoutY="290" prefWidth="600" promptText="Interakce"/>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="14" layoutY="650" prefHeight="150">
+                    <VBox fx:id="state" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="Stav"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="234" layoutY="650" prefHeight="150" prefWidth="600">
+                    <VBox fx:id="quests" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="580" styleClass="label" text="Úkoly"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+
+                <ScrollPane vbarPolicy="ALWAYS" layoutX="850" layoutY="650" prefHeight="150">
+                    <VBox fx:id="notes" styleClass="section">
+                        <children>
+                            <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="Poznámky"/>
+                        </children>
+                    </VBox>
+                </ScrollPane>
+
             </children>
         </AnchorPane>
+
     </children>
 </VBox>

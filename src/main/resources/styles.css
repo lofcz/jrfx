@@ -26,3 +26,7 @@
     -fx-background-color: rgba(83, 83, 83, 0.16);
     -fx-word-wrap: break-word;
 }
+
+.mainImg {
+    border-radius: 50%;
+}

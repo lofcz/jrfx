@@ -30,29 +30,29 @@ public class Main extends Application {
 
         // Prepare the game window
         // ----------------------------
-     //   Utils.HookWindows();
-    //    Console.setTerminalSize(120, 30);
-      //  Console.setTitle("(Ad)ventura");
-      //  Lang.ReadLumps("CS_CZ");
+      //  Utils.HookWindows();
+       // Console.setTerminalSize(120, 30);
+       // Console.setTitle("(Ad)ventura");
+       // Lang.ReadLumps("CS_CZ");
 
         // Rendering engine settings
         // ----------------------------
-       // Console.TW_ENABLED = false;
-      //  Console.CL_ENABLED = true;
+      //  Console.TW_ENABLED = false;
+       //Console.CL_ENABLED = true;
 
 
         // Start the game
         // ----------------------------
-       // MenuOption[] options = new MenuOption[] {new MenuOption(Lang.getLangLump("mainMenu", "newGame")), new MenuOption(Lang.getLangLump("mainMenu", "options")), new MenuOption(Lang.getLangLump("mainMenu", "about")), new MenuOption(Lang.getLangLump("mainMenu", "end"))};
-      //  ChoiceMenu mainMenu = new ChoiceMenu(options, "MainMenu");
-     //   Commands.initialize();
+        //MenuOption[] options = new MenuOption[] {new MenuOption(Lang.getLangLump("mainMenu", "newGame")), new MenuOption(Lang.getLangLump("mainMenu", "options")), new MenuOption(Lang.getLangLump("mainMenu", "about")), new MenuOption(Lang.getLangLump("mainMenu", "end"))};
+       // ChoiceMenu mainMenu = new ChoiceMenu(options, "MainMenu");
+       // Commands.initialize();
 
 
         // Game loop
         // ----------------------------
-     //   while(alive) {
+      //  while(alive) {
       //      mainMenu.StartRender();
-      //  }
+      // }
     }
 
     @Override
@@ -66,7 +66,7 @@ public class Main extends Application {
 
         Controller controller = loader.getController();
 
-        primaryStage.setTitle("Marigoldovo neštěstí");
+        primaryStage.setTitle("stam14 - 1. semestrální práce 4IT115");
         primaryStage.setResizable(false);
 
 //        InputStream iconStream = getClass().getResourceAsStream("/ikona.png");

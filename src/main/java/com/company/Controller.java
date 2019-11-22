@@ -11,7 +11,10 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
+import javafx.scene.text.TextFlow;
 
+import java.io.InputStream;
 import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
@@ -19,34 +22,37 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
 
     @FXML
-    private VBox locationList;
+    public VBox locationList;
     @FXML
-    private VBox itemList;
+    public VBox itemList;
     @FXML
-    private VBox npcList;
+    public VBox npcList;
     @FXML
-    private VBox inventory;
+    public VBox inventory;
     @FXML
-    private Label healthLabel;
+    public Label healthLabel;
     @FXML
-    private Label moneyLabel;
+    public Label moneyLabel;
 
     @FXML
-    private MenuItem newGameMenuItem;
+    public MenuItem newGameMenuItem;
 
     @FXML
-    private MenuItem endGame;
+    public MenuItem endGame;
 
     @FXML
-    private MenuItem helpMenuItem;
+    public MenuItem helpMenuItem;
 
     @FXML
-    private VBox logger;
+    public VBox logger;
 
     @FXML
-    private ComboBox<String> commandsBox;
+    public ComboBox<String> commandsBox;
 
     public ImageView locationImage;
+
+    @FXML
+    public TextFlow logId;
 
     @Override
     public void initialize(URL fxmlFileLocation, ResourceBundle resources) {
@@ -56,10 +62,26 @@ public class Controller implements Initializable {
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/scene.fxml"));
+    }
 
-        Image itemImage = new Image(getClass().getClassLoader().getResourceAsStream("\\" + "pub1.jpg"));
-        locationImage.setImage(itemImage);
-        //Image img = new Image(getClass().getResourceAsStream("\\pub1.jpg"));
+    public void setLevelImage(Image img) {
+        locationImage.setImage(img);
+    }
 
+    public InputStream loadResource(String path) {
+        return getClass().getClassLoader().getResourceAsStream("\\" + path);
+    }
+
+    public Image loadImage(String path) {
+        return new Image(loadResource(path));
+    }
+
+    public void setLogText(String text) {
+
+        Text t = new Text(text);
+        t.setUnderline(true);
+        logId.getChildren().clear();
+        logId.getChildren().addAll(t);
+       // logId.setText(text);
     }
 }

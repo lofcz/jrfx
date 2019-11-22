@@ -1,4 +1,6 @@
 package com.company;
+import javafx.scene.image.Image;
+
 import java.util.ArrayList;
 
 /**
@@ -34,6 +36,26 @@ public class BaseLevel {
 
     public void setPlayerHere(boolean playerHere) {
         this.playerHere = playerHere;
+    }
+
+    public ArrayList<BaseLevel> exitLevels = new ArrayList<>();
+
+    public Image levelImage;
+
+    public void addExitLevel(BaseLevel level) {
+        exitLevels.add(level);
+    }
+
+    public ArrayList<BaseLevel> getExitLevels() {
+        return exitLevels;
+    }
+
+    public void setLevelImage(Image img) {
+        levelImage = img;
+    }
+
+    public Image getLevelImage() {
+        return levelImage;
     }
 
     /**

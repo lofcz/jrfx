@@ -1,4 +1,5 @@
 package com.company;
+import game1.LevelPub;
 import org.junit.Assert;
 import org.junit.Test;
 

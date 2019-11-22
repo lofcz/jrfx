@@ -1,4 +1,6 @@
 package com.company;
+import game1.LevelPub;
+
 import java.io.IOException;
 import java.util.ArrayList;
 

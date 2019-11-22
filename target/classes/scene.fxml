@@ -11,7 +11,10 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.StackPane?>
-<VBox prefHeight="860" prefWidth="1060" styleClass="body" stylesheets="styles.css"
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+<VBox prefHeight="860" prefWidth="1060" styleClass="body" stylesheets="@styles.css"
       xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.company.Controller">
     <children>
@@ -36,7 +39,7 @@
 
                 <ImageView fx:id="locationImage" fitHeight="300.0" fitWidth="600.0" layoutX="234" layoutY="340.0" pickOnBounds="true" styleClass="mainImg"/>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="14.0" layoutY="28.0" prefHeight="300">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="14.0" layoutY="28.0" prefHeight="300">
                     <VBox fx:id="inventory" styleClass="section">
                         <children>
 
@@ -46,7 +49,7 @@
 
                 </ScrollPane>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="14.0" layoutY="340" prefHeight="300">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="14.0" layoutY="340" prefHeight="300">
                     <VBox fx:id="itemList" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="180.0" styleClass="label" text="Dostupné předměty"/>
@@ -54,7 +57,7 @@
                     </VBox>
                 </ScrollPane>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="850.0" layoutY="28" prefHeight="300">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="850.0" layoutY="28" prefHeight="300">
                     <VBox fx:id="npcList" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="NPC"/>
@@ -62,7 +65,7 @@
                     </VBox>
                 </ScrollPane>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="850.0" layoutY="340" prefHeight="300">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="850.0" layoutY="340" prefHeight="300">
                     <VBox fx:id="locationList" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="Lokace"/>
@@ -70,16 +73,17 @@
                     </VBox>
                 </ScrollPane>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="234" layoutY="28.0" prefHeight="254" prefWidth="600">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="234" layoutY="28.0" prefHeight="254" prefWidth="600">
                     <VBox fx:id="logger" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="580" styleClass="label" text="Log"/>
+                            <TextFlow prefWidth="580" styleClass="labelSimple" fx:id="logId"/>
                         </children>
                     </VBox>
                 </ScrollPane>
                 <ComboBox fx:id="commandsBox" layoutX="234" layoutY="290" prefWidth="600" promptText="Interakce"/>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="14" layoutY="650" prefHeight="150">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="14" layoutY="650" prefHeight="150">
                     <VBox fx:id="state" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="Stav"/>
@@ -87,7 +91,7 @@
                     </VBox>
                 </ScrollPane>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="234" layoutY="650" prefHeight="150" prefWidth="600">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="234" layoutY="650" prefHeight="150" prefWidth="600">
                     <VBox fx:id="quests" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="580" styleClass="label" text="Úkoly"/>
@@ -95,7 +99,7 @@
                     </VBox>
                 </ScrollPane>
 
-                <ScrollPane vbarPolicy="ALWAYS" layoutX="850" layoutY="650" prefHeight="150">
+                <ScrollPane vbarPolicy="AS_NEEDED" layoutX="850" layoutY="650" prefHeight="150">
                     <VBox fx:id="notes" styleClass="section">
                         <children>
                             <Label prefHeight="17.0" prefWidth="180" styleClass="label" text="Poznámky"/>

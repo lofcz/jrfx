@@ -18,15 +18,34 @@
 }
 
 .section {
-    -fx-background-color: #e8e8e8;
+ -fx-background-color: rgba(83, 83, 83, 0.16);
     -fx-word-wrap: break-word;
+
 }
 
-.section:hover {
-    -fx-background-color: rgba(83, 83, 83, 0.16);
-    -fx-word-wrap: break-word;
-}
 
 .mainImg {
     border-radius: 50%;
+    -fx-background-radius: 50;
+    -fx-padding: 10;
+    -fx-background-color: firebrick;
+     -fx-hgap: 20px;
+        -fx-padding: 40px;
+
+        -fx-background-color: #2969c0;
+        -fx-background-radius: 50px;
+
+        -fx-border-radius: 50px;
+        -fx-border-width: 5px;
+        -fx-border-color: black;
+        -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+img {
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.labelSimple {
+        -fx-padding: 10 10 10 10;
+        -fx-background-color: #F4F4F4;
 }

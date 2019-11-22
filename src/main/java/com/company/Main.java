@@ -1,5 +1,7 @@
 package com.company;
 import java.io.IOException;
+
+import game1.GameData;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -69,9 +71,17 @@ public class Main extends Application {
         primaryStage.setTitle("stam14 - 1. semestrální práce 4IT115");
         primaryStage.setResizable(false);
 
+        String css = getClass().getResource("/styles.css").toExternalForm();
+        scene.getStylesheets().clear();
+        scene.getStylesheets().add(css);
+
 //        InputStream iconStream = getClass().getResourceAsStream("/ikona.png");
 //        Image icon = new Image(iconStream);
         //primaryStage.getIcons().add(icon);
+
+        GameData gd = new GameData(controller);
+        gd.start();
+
         primaryStage.show();
     }
 }

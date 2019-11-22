@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AdventuraStagl:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4489b539-3653-44ed-af8c-70483f11d34b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ENABLE_PROCESSED_INPUT</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\kocou\IdeaProjects\AdventuraStagl\src</dir>
+    </dirStrings>
+  </component>
+  <component name="ProjectId" id="1TwZMSYEEpbeTCJYGvrXkVrQyKd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="adventurastagl" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="D:/forge/lofmod" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\com\company" />
+      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="AdventuraStagl" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCanCombineItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventuraStagl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
+      <option name="METHOD_NAME" value="testCanCombineItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCanPickItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventuraStagl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
+      <option name="METHOD_NAME" value="testCanPickItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCanWin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventuraStagl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
+      <option name="METHOD_NAME" value="testCanWin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCantPickSolidItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventuraStagl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
+      <option name="METHOD_NAME" value="testCantPickSolidItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testCantPickTooManyItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventuraStagl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
+      <option name="METHOD_NAME" value="testCantPickTooManyItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gson.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$USER_HOME$/Desktop/gson.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jna.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$USER_HOME$/Desktop/jna.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JAR Application.gson.jar" />
+      <item itemvalue="JAR Application.jna.jar" />
+      <item itemvalue="JUnit.Tests.testCanCombineItems" />
+      <item itemvalue="JUnit.Tests.testCanPickItem" />
+      <item itemvalue="JUnit.Tests.testCantPickSolidItem" />
+      <item itemvalue="JUnit.Tests.testCantPickTooManyItems" />
+      <item itemvalue="JUnit.Tests.testCanWin" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tests.testCanCombineItems" />
+        <item itemvalue="JUnit.Tests.testCanWin" />
+        <item itemvalue="JUnit.Tests.testCantPickTooManyItems" />
+        <item itemvalue="JUnit.Tests.testCanPickItem" />
+        <item itemvalue="JUnit.Tests.testCantPickSolidItem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4489b539-3653-44ed-af8c-70483f11d34b" name="Default Changelist" comment="" />
+      <created>1558562866855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558562866855</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 38m 21s.xml">
+      <configuration name="Tests.testCanWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 38m 57s.xml">
+      <configuration name="Tests.testCanWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 39m 29s.xml">
+      <configuration name="Tests.testCanWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 40m 02s.xml">
+      <configuration name="Tests.testCanWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 40m 18s.xml">
+      <configuration name="Tests.testCanWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 41m 53s.xml">
+      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 43m 28s.xml">
+      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 44m 24s.xml">
+      <configuration name="Tests.testCanWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 44m 30s.xml">
+      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 44m 57s.xml">
+      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574374689094">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574374689094" />
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1574374241155">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1574374241155" />
+    <state x="754" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1574374646422">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="754" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574374646422" />
+    <state x="749" y="245" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1574373331365">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="749" y="245" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574373331365" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1574375854883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1574375854883" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1574375854883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1574375854883" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1574375854883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1574375854883" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1574375854883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1574375854883" />
+    <state width="2005" height="204" key="GridCell.Tab.1.bottom" timestamp="1574373110093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1574373110093" />
+    <state width="2005" height="204" key="GridCell.Tab.1.center" timestamp="1574373110093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1574373110093" />
+    <state width="2005" height="204" key="GridCell.Tab.1.left" timestamp="1574373110093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1574373110093" />
+    <state width="2005" height="204" key="GridCell.Tab.1.right" timestamp="1574373110093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1574373110093" />
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1574374933326">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574374933326" />
+    <state x="533" y="198" key="SettingsEditor" timestamp="1574374113044">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="198" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1574374113044" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>AdventuraStagl:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AdventuraStagl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

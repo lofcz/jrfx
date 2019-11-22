@@ -1,0 +1,28 @@
+.body {
+    -fx-background-color: white;
+    -fx-font-size: 16px;
+
+}
+
+.label {
+    -webkit-fx-font-fill: white;
+    -moz-fx-font-fill: white;
+    -ms-fx-font-fill: white;
+    -o-fx-font-fill: white;
+    -khtml-fx-font-fill: white;
+    fx-font-fill: white;
+}
+
+.section-header {
+    -fx-font-size: 24px;
+}
+
+.section {
+    -fx-background-color: #e8e8e8;
+    -fx-word-wrap: break-word;
+}
+
+.section:hover {
+    -fx-background-color: rgba(83, 83, 83, 0.16);
+    -fx-word-wrap: break-word;
+}

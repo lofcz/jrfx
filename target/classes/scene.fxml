@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ComboBox?>
+<VBox prefHeight="518.0" prefWidth="1000.0" styleClass="body" stylesheets="styles.css"
+      xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.company.Controller">
+    <children>
+        <MenuBar prefHeight="25.0" prefWidth="979.0" VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Hra">
+                    <items>
+                        <MenuItem fx:id="newGameMenuItem" mnemonicParsing="false" text="Nová hra"/>
+                        <MenuItem fx:id="endGame" mnemonicParsing="false" text="Quit"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Nápověda">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Nápověda" fx:id="helpMenuItem"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ComboBox fx:id="commandsBox" layoutX="15.0" layoutY="33.0" prefWidth="150.0" promptText="choose"/>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="518.0" prefWidth="1000.0" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox layoutX="14.0" layoutY="395.0" prefHeight="82.0" prefWidth="160.0" styleClass="section">
+                    <children>
+                        <Label fx:id="healthLabel" prefHeight="35.0" prefWidth="150.0" styleClass="label"
+                               text="Životy:"/>
+                        <Label fx:id="moneyLabel" prefHeight="36.0" prefWidth="151.0" styleClass="label"
+                               text="Peníze:"/>
+                    </children>
+                </VBox>
+
+                <ImageView fx:id="locationImage" fitHeight="300.0" fitWidth="630.0" layoutX="182.0" layoutY="178.0"
+                           pickOnBounds="true" preserveRatio="true"/>
+                <VBox fx:id="inventory" layoutX="14.0" layoutY="28.0" prefHeight="170.0" prefWidth="160.0"
+                      styleClass="section">
+                    <children>
+
+                        <Label prefHeight="30.0" prefWidth="179.0" styleClass="label" text="Inventář"/>
+                    </children>
+                </VBox>
+                <VBox fx:id="itemList" layoutX="14.0" layoutY="217.0" prefHeight="170.0" prefWidth="160.0"
+                      styleClass="section">
+                    <children>
+                        <Label prefHeight="40.0" prefWidth="175.0" styleClass="label" text="Předměty k sebrání"
+                               textAlignment="CENTER"/>
+                    </children>
+                </VBox>
+                <VBox fx:id="npcList" layoutX="830.0" layoutY="26.0" prefHeight="170.0" prefWidth="150.0"
+                      styleClass="section">
+                    <children>
+                        <Label prefHeight="40.0" prefWidth="174.0" styleClass="label" text="Postavy"/>
+                    </children>
+                </VBox>
+                <VBox fx:id="locationList" layoutX="830.0" layoutY="217.0" prefHeight="257.0" prefWidth="150.0"
+                      styleClass="section">
+                    <children>
+                        <Label prefHeight="40.0" prefWidth="175.0" styleClass="label" text="Prostory"/>
+                    </children>
+                </VBox>
+                <VBox fx:id="logger" layoutX="182.0" layoutY="28.0" prefHeight="130.0" prefWidth="630.0"
+                      styleClass="section">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="65.0" styleClass="label" text="Co se děje"/>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

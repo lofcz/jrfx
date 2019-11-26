@@ -21,6 +21,7 @@ public class LevelPub extends BaseLevel implements iLevel {
 
         Item dirtyJug = new Item("dirtyJug", "dirtyJugDescription");
         itemsInRoom.add(dirtyJug);
+
     }
 
     @Override

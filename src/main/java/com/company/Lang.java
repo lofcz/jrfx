@@ -18,11 +18,16 @@ import com.google.gson.reflect.TypeToken;
  */
 public class Lang  {
     private static ArrayList<LangLump> lumps = new ArrayList<LangLump>();
+    public static Controller controller;
 
-    public static void ReadLumps(String lang) throws IOException {
+    public static void setController(Controller c) {
+        controller = c;
+    }
+
+    public static void ReadLumps(String lang) {
         ClassLoader classLoader = Lang.class.getClassLoader();
         Type type = new TypeToken<ArrayList<LangLump>>(){}.getType();
-        InputStream sss = classLoader.getResourceAsStream("com/company/lang" + lang);
+        InputStream sss = controller.loadResource(lang);
 
         String allText = Utils.readStream(sss);
         Gson gson = new Gson();

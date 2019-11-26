@@ -28,33 +28,43 @@ public class Main extends Application {
     public static void main(String[] args) throws IOException, InterruptedException {
 
 
-        launch(args);
+        if (args.length > 0)
+        {
+            if (args[0] == "nogui") {
+                // Prepare the game window
+                // ----------------------------
+                //  Utils.HookWindows();
+                 Console.setTerminalSize(120, 30);
+                 Console.setTitle("(Ad)ventura");
+                 Lang.ReadLumps("langCS_CZ.json");
 
-        // Prepare the game window
-        // ----------------------------
-      //  Utils.HookWindows();
-       // Console.setTerminalSize(120, 30);
-       // Console.setTitle("(Ad)ventura");
-       // Lang.ReadLumps("CS_CZ");
-
-        // Rendering engine settings
-        // ----------------------------
-      //  Console.TW_ENABLED = false;
-       //Console.CL_ENABLED = true;
-
-
-        // Start the game
-        // ----------------------------
-        //MenuOption[] options = new MenuOption[] {new MenuOption(Lang.getLangLump("mainMenu", "newGame")), new MenuOption(Lang.getLangLump("mainMenu", "options")), new MenuOption(Lang.getLangLump("mainMenu", "about")), new MenuOption(Lang.getLangLump("mainMenu", "end"))};
-       // ChoiceMenu mainMenu = new ChoiceMenu(options, "MainMenu");
-       // Commands.initialize();
+                // Rendering engine settings
+                // ----------------------------
+                  Console.TW_ENABLED = false;
+                Console.CL_ENABLED = true;
 
 
-        // Game loop
-        // ----------------------------
-      //  while(alive) {
-      //      mainMenu.StartRender();
-      // }
+                // Start the game
+                // ----------------------------
+                MenuOption[] options = new MenuOption[] {new MenuOption(Lang.getLangLump("mainMenu", "newGame")), new MenuOption(Lang.getLangLump("mainMenu", "options")), new MenuOption(Lang.getLangLump("mainMenu", "about")), new MenuOption(Lang.getLangLump("mainMenu", "end"))};
+                 ChoiceMenu mainMenu = new ChoiceMenu(options, "MainMenu");
+                 Commands.initialize();
+
+
+                // Game loop
+                // ----------------------------
+                  while(alive) {
+                      mainMenu.StartRender();
+                 }
+            }
+        }
+        else {
+            launch(args);
+        }
+
+
+
+
     }
 
     @Override

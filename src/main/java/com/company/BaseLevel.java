@@ -16,6 +16,8 @@ import java.util.ArrayList;
 public class BaseLevel {
     private int state;
     private boolean playerHere;
+    private String name;
+    private String entranceText;
 
     public int getState() {
         return state;
@@ -56,6 +58,20 @@ public class BaseLevel {
 
     public Image getLevelImage() {
         return levelImage;
+    }
+
+    public String getName() {return name;}
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEntranceText(String entranceText) {
+        this.entranceText = entranceText;
+    }
+
+    public String getEntranceText() {
+        return entranceText;
     }
 
     /**

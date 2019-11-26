@@ -52,6 +52,10 @@ public class Inventory implements iForm {
         }
     }
 
+    public ArrayList<Item> getItems() {
+        return items;
+    }
+
     public void removeItem(Item item) {
         items.remove(item);
     }

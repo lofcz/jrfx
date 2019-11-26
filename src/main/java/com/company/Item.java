@@ -1,4 +1,6 @@
 package com.company;
+import javafx.scene.image.Image;
+
 import java.io.IOException;
 
 /**
@@ -17,6 +19,7 @@ public class Item extends Entity {
     private String image;
     private String descriptionLoc;
     private boolean solid;
+    private Image itemImage;
 
     public Item(String name, String description) {
         super();
@@ -39,6 +42,14 @@ public class Item extends Entity {
 
     public String getImage() {
         return image;
+    }
+
+    public Image getItemImage() {
+        return itemImage;
+    }
+
+    public void setItemImage(Image itemImage) {
+        this.itemImage = itemImage;
     }
 
     public void setSolid(boolean solid) {

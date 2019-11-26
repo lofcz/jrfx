@@ -1,0 +1,89 @@
+[
+   {
+     "keys": {
+       "aboutFrom": "Jako semestrální práci v roce 2019 napsal Matěj Štágl",
+       "aboutLibs": "Použité knihovny: [178]JNA[/], [178]GSON[/]",
+       "aboutOn": "Napsanáno v jazyce [178]Java8[/]",
+       "authorSignature": "[53]M[54]a[55]t[56]ě[57]j [63]Š[69]t[75]á[81]g[117]l[/]",
+       "backToMenu": "[pro návrat do hlavního menu stiskni cokoli]",
+       "continue": "[stiskni ENTER pro pokračování]",
+       "choiceMenuTooltip": "[K pohybu v menu použij klásy w/s, k potvrzení enter]",
+       "inputExpected": "[Pokud uvidíš blikat kurzor a znak > na novém řádku, čeká se na příkaz]"
+     },
+     "value": "plaintext"
+   },
+  {
+    "keys": {
+      "intro0": "Nepříjemný zvuk nabírá na intenzitě, volá mě, už mu nemůžu vzdorovat. Až  příliš rychle otevřu oči, uhodí mě do nich prudké sluneční světlo. Další noc, ze které si nepamatuju vůbec nic. Rozhlížím se okolo, oprýskané zdi, okna dokořán, na podlaze zbytky něčeho, co jsem měl včera nejspíš k večeři. Do zad mě bodá tvrdý slamník, cítím se pod psa a zase ten [196]zvuk[/] - prkna sténají pod těžkými kroky.",
+      "intro1": "Dochází mi, kdo přijde. Jestli mě takhle uvidí, budu v bezvědomí další týden, tentokrát nedobrovolně. Vyletím z pelechu, házím přes sebe halenu, v letu otevírám dveře a srazím se s obrovským břichem Pána hospody. [8]\"Dejžto pánbů dobré ráno, otče\"[/] dostanu ze sebe.",
+      "intro2": "Hora tuku si mě měří znechuceným pohledem, ale nemá proč - smrdíme skoro stejně. Nakonec se rozhodne, že vypadám přiměřeně a tak na mě basem zavrčí [8]\"Hybaj dolů korbele nalejvat, holomku nečistá. Rci tobě, ty pracovati budeš nežli po nocích se satanem po ulicích zlotřilosti vyvádět, neb ti zlámu všechny kosti v těle!\"[/] Břicho se mírně odvalí, jen tak abych se stěží prodral po schodech dolů.",
+      "intro3": "Zezdola čpí pot nemytých těl, močovina a patok, kterému tu říkají pivo. Štamgasti burácejí další odrhovačku, chytám slova [118]\"..zástupy děveček, potoky vína, dnes mě nic nesere, jsem mezi svýma..\"[/]",
+      "intro4": "Další den v Jilemnici začíná."
+    },
+    "value": "chapter0"
+  },
+  {
+    "keys": {
+      "intro0": "Hospoda se otřásá v základech. Hosté zapomněli na starosti, které je čekají zítra a věnují se korbelům piva. Z kuchyně se sem line vůně fazolí a špeku, Rozárka se u plotny musí pořádně otáčet, aby zvládla nakrmit tu holotu.",
+      "intro1": "[8]\"Hej mladej, přihrej nám sem nějaké pivo, máme žízeň!\"[/] zaslechnu od stolu vzadu. Sedí za ním Potočka s Kozákem, staří dědci, kteří kdysi pomáhali budovat Jilemnici. Moc dobře si pamatuju, jak se posledně mlsně dívali po Rozárce a ještě na ni měli řeči. Že bych jim to pivo nějak vylepšil?",
+      "intro2": "Měl bych se podívat po nějakých korbelích.",
+      "intro3": "Použitím příkazu [190]pozoruj[/] se rozhlédneš kolem sebe.",
+      "observe0": "U sudu se válí [165]oslizlý korbel[/], pořádná nechuťárna pro pořádný chlapy. Jestli jim do tohohle načepuju ten náš utrejch, přijdeme o naše štamgasty nadobro. Příkazem [190]vezmi[/] můžu sebrat na co dosáhnu.",
+      "observe1": "Měl bych se [165]korbelu[/] rychle zbavit. To znamená do něj načepovat nějaké pivo. Mohl bych [190]použít[/] [165]korbel[/] [190]na[/] [165]sud piva[/]."
+    },
+    "value": "chapter1"
+  },
+  {
+    "keys": {
+      "unknownCommand": "Příkaz \"{0}\" není definován.",
+      "lockedCommand": "Příkaz \"{0}\" teď nemůžeš použít.",
+      "tooManyArguments": "Pro příkaz \"{0}\" jsi zadal příliš mnoho parametrů.",
+      "tooFewArguments": "Pro příkaz \"{0}\" jsi zadal příliš málo parametrů.",
+      "internalError": "Při provádění příkazu \"{0}\" došlo k chybě.",
+      "itemNotPresent": "Předmět \"{0}\" nemůžu sebrat."
+    },
+    "value": "errors"
+  },
+  {
+    "keys": {
+      "dirtyJug": "oslizlý korbel",
+      "dirtyJugDescription": "Pekelně zapáchající korbel na pivo, zvratky a další tekutiny. Jestli se ho dotknu ještě jednou, přijdu určitě o ruku.",
+      "cleanJug": "korbel",
+      "cleanJugDescription": "Už vypadá o něco lépe, pořád bych z toho nepil za nic na světě.",
+      "cleanJugObtain": "Hodil jsem hadr po korbelu, okamžitě nasákl tou slizkou emulzí, každopádně to vypadá, že mám použitelný [165]korbel[/] a o něco méně použitelný [165]oslizlý hadr[/].",
+      "cleanJugObtainedAlready": "Znova šáhnout na tenhle hadr a dobrovolně? To teda ne. Navíc teď má [165]korbel[/] ten správný šmak, aby ladil s pivem. Pro Potočku s Kozákem jako na míru dělané.",
+      "barrel": "sud",
+      "barrelDescription": "Sud piva",
+      "rug": "hadr",
+      "rugDescription": "Už má něco za sebou.",
+      "beer": "korbel piva",
+      "beerDescription": "Prý ležák, ve skutečnosti patok."
+    },
+    "value": "items"
+  },
+  {
+    "keys": {
+      "observe": "pozoruj",
+      "take": "vezmi",
+      "use": "použij {0} na {1}",
+      "move": "jdi",
+      "speak": "promluv s"
+    },
+    "value": "commands"
+  },
+  {
+    "keys": {
+      "newGame": "Nová hra",
+      "options": "Nastavení",
+      "about": "O hře",
+      "end": "Konec"
+    },
+    "value": "mainMenu"
+  },
+  {
+      "keys": {
+        "continue": "Pokračovat"
+      },
+      "value": "responses"
+    }
+]

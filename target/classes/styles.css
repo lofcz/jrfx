@@ -19,8 +19,7 @@
 
 .section {
  -fx-background-color: rgba(83, 83, 83, 0.16);
-    -fx-word-wrap: break-word;
-
+ -fx-word-wrap: break-word;
 }
 
 
@@ -48,4 +47,17 @@ img {
 .labelSimple {
         -fx-padding: 10 10 10 10;
         -fx-background-color: #F4F4F4;
+}
+
+.basicBox {
+    -fx-padding: 5 5 5 5;
+    -fx-background-color:  #F4F4F4;
+    -fx-border-radius: 0px;
+    -fx-border-width: 1px;
+    -fx-border-color: #848484;
+    -fx-display: block;
+}
+
+.basicBox:hover {
+    -fx-cursor: hand;
 }

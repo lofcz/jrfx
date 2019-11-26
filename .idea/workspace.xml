@@ -24,6 +24,13 @@
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TwZMSYEEpbeTCJYGvrXkVrQyKd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +46,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,19 +54,29 @@
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\main\java\com\company" />
-      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\main\resources" />
       <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\com\company" />
       <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\main\resources" />
+      <recent name="C:\Users\kocou\IdeaProjects\AdventuraStagl\src\main\java\com\company" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="AdventuraStagl" />
+      <option name="PROGRAM_PARAMETERS" value="nogui" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in AdventuraStagl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventuraStagl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,22 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testCantPickSolidItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventuraStagl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="game1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
-      <option name="METHOD_NAME" value="testCantPickSolidItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests.testCantPickTooManyItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventuraStagl" />
       <extension name="coverage">
@@ -155,22 +156,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JAR Application.gson.jar" />
       <item itemvalue="JAR Application.jna.jar" />
       <item itemvalue="JUnit.Tests.testCanCombineItems" />
       <item itemvalue="JUnit.Tests.testCanPickItem" />
-      <item itemvalue="JUnit.Tests.testCantPickSolidItem" />
       <item itemvalue="JUnit.Tests.testCantPickTooManyItems" />
       <item itemvalue="JUnit.Tests.testCanWin" />
+      <item itemvalue="JUnit.All in AdventuraStagl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in AdventuraStagl" />
         <item itemvalue="JUnit.Tests.testCanCombineItems" />
         <item itemvalue="JUnit.Tests.testCanWin" />
         <item itemvalue="JUnit.Tests.testCantPickTooManyItems" />
         <item itemvalue="JUnit.Tests.testCanPickItem" />
-        <item itemvalue="JUnit.Tests.testCantPickSolidItem" />
       </list>
     </recent_temporary>
   </component>
@@ -199,47 +200,15 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 38m 21s.xml">
-      <configuration name="Tests.testCanWin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 38m 57s.xml">
-      <configuration name="Tests.testCanWin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 39m 29s.xml">
-      <configuration name="Tests.testCanWin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 40m 02s.xml">
-      <configuration name="Tests.testCanWin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 40m 18s.xml">
-      <configuration name="Tests.testCanWin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 41m 53s.xml">
-      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 43m 28s.xml">
-      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanWin - 2019.06.05 at 10h 44m 24s.xml">
-      <configuration name="Tests.testCanWin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 44m 30s.xml">
-      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testCanCombineItems - 2019.06.05 at 10h 44m 57s.xml">
-      <configuration name="Tests.testCanCombineItems" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574374689094">
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574746431091">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574374689094" />
-    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1574374241155">
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574746431091" />
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1574731179954">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1574374241155" />
+    <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1574731179954" />
     <state x="754" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1574374646422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -248,38 +217,42 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="749" y="245" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1574373331365" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1574447089183">
+    <state width="398" height="466" key="DebuggerActiveHint" timestamp="1574728866432">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1574447089183" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1574447089182">
+    <state width="398" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1574728866432" />
+    <state width="2005" height="204" key="GridCell.Tab.0.bottom" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1574447089182" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1574447089182">
+    <state width="2005" height="204" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.0.center" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1574447089182" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1574447089182">
+    <state width="2005" height="204" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.0.left" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1574447089182" />
-    <state width="2005" height="204" key="GridCell.Tab.1.bottom" timestamp="1574420788629">
+    <state width="2005" height="204" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.0.right" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1574420788629" />
-    <state width="2005" height="204" key="GridCell.Tab.1.center" timestamp="1574420788629">
+    <state width="2005" height="204" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.1.bottom" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1574420788629" />
-    <state width="2005" height="204" key="GridCell.Tab.1.left" timestamp="1574420788629">
+    <state width="2005" height="204" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.1.center" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1574420788629" />
-    <state width="2005" height="204" key="GridCell.Tab.1.right" timestamp="1574420788629">
+    <state width="2005" height="204" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.1.left" timestamp="1574746451396">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1574420788629" />
+    <state width="2005" height="204" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
+    <state width="2005" height="204" key="GridCell.Tab.1.right" timestamp="1574746451396">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1574746451396" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1574437255924">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

@@ -1,0 +1,15 @@
+Hru je nejlepší spustit příkazem:
+
+> java -Dfile.encoding=CP852 -jar {cesta_k_jar}
+
+Nastavení:
+TW_ENABLE = zapne / vypne efekt psacího stroje
+EG_COLORMODE (2 / 9 / 255) = nastaví počet barev ve hře
+TW_SPEED = rychlost efektu psacího stroje
+EG_NATIVE = vynutí optimální velikost herního okna
+EG_ADAPTIVE = pokud je NATIVE = false, upraví zalamování řádků
+
+(AD)ventura - Post mortem tribut skupině SUDOKOP a hře LEGIE
+------------------------------------------------------------
+Semestrální projekt napsal Matěj Štágl, 2019
+Verze 1.0

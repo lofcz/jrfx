@@ -18,3 +18,5 @@
 ## Screenshots
 
 [TBD]
+
+*Originally developed as a part of my BS computer science studies.*
